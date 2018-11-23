@@ -25,11 +25,21 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: `${ data.site.siteMetadata.description }` },
-            { name: 'keywords', content: `${ data.site.siteMetadata.keywords }` },
+            {
+              name: 'description',
+              content: `${ data.site.siteMetadata.description }`
+            },
+            {
+              name: 'keywords',
+              content: `${ data.site.siteMetadata.keywords }`
+            },
           ]}
           link={[
-            { name: 'link', href: 'https://fonts.googleapis.com/css?family=Work+Sans:400,500,700', rel: 'stylesheet' }
+            {
+              name: 'link',
+              href: 'https://fonts.googleapis.com/css?family=Work+Sans:400,500,700',
+              rel: 'stylesheet'
+            }
           ]}
         >
           <html lang="en" />
