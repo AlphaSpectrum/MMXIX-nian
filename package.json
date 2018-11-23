@@ -23,7 +23,7 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
-    "react-strap": "^0.0.1",
+    "reactstrap": "^6.5.0",
     "rschema": "^1.0.2"
   },
   "keywords": [
