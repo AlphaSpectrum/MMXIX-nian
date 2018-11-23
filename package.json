@@ -2,7 +2,7 @@
   "name": "MMXIX-nian",
   "description": "My personal website.",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alan Campos <alancampos@me.com>",
   "dependencies": {
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
