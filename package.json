@@ -6,6 +6,12 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap": "^4.1.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.5",
@@ -39,7 +45,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0"
   },
   "repository": {
     "type": "git",
