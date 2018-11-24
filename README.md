@@ -1,3 +1,3 @@
-# MMXIX-nian
+# mmxix-nian
 
 Responsive website built using Gatsby.js.

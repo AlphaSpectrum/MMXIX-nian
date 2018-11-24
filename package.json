@@ -1,5 +1,5 @@
 {
-  "name": "MMXIX-nian",
+  "name": "mmxix-nian",
   "description": "My personal website.",
   "version": "1.0.0",
   "author": "Alan Campos <alancampos@me.com>",
@@ -34,7 +34,8 @@
     "web",
     "developer",
     "software",
-    "engineer"
+    "engineer",
+    "template"
   ],
   "license": "MIT",
   "scripts": {
