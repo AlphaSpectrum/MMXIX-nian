@@ -14,36 +14,51 @@ const Hero = () => (
     >
       <Row>
         <Col
-          className="text-white"
+          className="text-center mx-auto"
           md={{
-            size: 6,
+            size: 8,
             offset: 4
           }}
         >
-          <div>
+          <div
+            className="d-none d-md-block"
+          >
+            <div
+              className=""
+              style={{
+                position: 'relative',
+                top: '113px'
+              }}
+            >
+              <img
+                src={Devices}
+                alt="Laptop, cell phone and tablet"
+              />
+            </div>
+          </div>
+        </Col>
+        <Col
+          className="text-white mx-auto"
+          md={{
+            size: 5,
+            offset: 7
+          }}
+        >
+          <div
+            className="pt-5"
+          >
+            <p
+              className="text-uppercase"
+            >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra, metus in dignissim dictum, nibh tellus euismod urna, luctus sagittis enim nisl et urna.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra, metus in dignissim dictum, nibh tellus euismod urna, luctus sagittis enim nisl et urna.
             </p>
           </div>
         </Col>
       </Row>
     </Container>
-    <div
-      className="d-none d-md-block"
-    >
-      <div
-        className="d-flex justify-content-end flex-row mx-5"
-        style={{
-          position: 'relative',
-          top: '83px'
-        }}
-      >
-        <img
-          src={Devices}
-          alt="Laptop, cell phone and tablet"
-        />
-      </div>
-    </div>
   </Section>
 )
 
