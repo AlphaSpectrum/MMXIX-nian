@@ -9,41 +9,24 @@ const Hero = () => (
     id="hero"
   >
     <div
-      className="hero-container d-none d-md-block"
-    >
-      <div
-      >
-        <img
-          src={Devices}
-          alt="Laptop, cell phone, tablet"
-          className="img-fluid"
-        />
-      </div>
-      <div
-        className="centered"
-      >
-        <p
-          className="display-4 font-weight-bold"
-          
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-      </div>
-    </div>
-    <div
-      className="d-flex justify-content-center flex-column d-md-none"
+      id='hero-device'
+      className="d-flex justify-content-center flex-column"
       style={{
-        height: '480px',
+        height: '480px'
       }}
     >
       <div
-        className="align-self-center"
+        className="align-self-center mx-5"
       >
-        <p
-          className="display-4 font-weight-bold"
+        <div
+        className="mx-5"
         >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+          <h1
+          className="mx-5 text-center font-weight-bold"
+          >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          </h1>
+        </div>
       </div>
     </div>
   </Section>
