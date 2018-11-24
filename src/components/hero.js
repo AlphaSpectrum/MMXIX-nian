@@ -2,11 +2,12 @@ import React from 'react'
 
 import Section from '../components/section'
 
-import Devices from '../images/devices.svg'
-
 const Hero = () => (
   <Section
     id="hero"
+    style={{
+      marginTop: '56px'
+    }}
   >
     <div
       id='hero-device'
@@ -19,12 +20,14 @@ const Hero = () => (
         className="align-self-center mx-5"
       >
         <div
-        className="mx-5"
+          style={{
+            maxWidth: '600px'
+          }}
         >
           <h1
-          className="mx-5 text-center font-weight-bold"
+            className="text-center font-weight-bold"
           >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
         </div>
       </div>

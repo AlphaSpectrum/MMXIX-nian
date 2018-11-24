@@ -1,3 +1,9 @@
+.bg-white-transluscent-blur {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
 .nav-item {
     padding: 0 2.5rem 0 2.5rem;
 }
