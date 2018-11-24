@@ -1,3 +1,17 @@
+@media (min-width: 768px) {
+    #hero img {
+        position: relative;
+        top: 166px;
+    }
+}
+
+@media (min-width: 992px) {
+    #hero img {
+        position: relative;
+        top: 113px;
+    }
+}
+
 .nav-item {
     padding: 0 2.5rem 0 2.5rem;
 }
@@ -20,4 +34,21 @@ div[role=section] {
 
 #hero {
     background: #14008E;
+}
+
+#hero p,
+#hero h1 {
+    color: #ff7200 !important;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

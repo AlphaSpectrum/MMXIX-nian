@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
 
 import Section from '../components/section'
 
@@ -9,56 +8,43 @@ const Hero = () => (
   <Section
     id="hero"
   >
-    <Container
-      fluid={true}
+    <div
+      class="hero-container d-none d-md-block"
     >
-      <Row>
-        <Col
-          className="text-center mx-auto"
-          md={{
-            size: 8,
-            offset: 4
-          }}
+      <div
+      >
+        <img
+          src={Devices}
+          alt="Laptop, cell phone, tablet"
+          className="img-fluid"
+        />
+      </div>
+      <div
+        class="centered"
+      >
+        <p
+          className="display-4"
         >
-          <div
-            className="d-none d-md-block"
-          >
-            <div
-              className=""
-              style={{
-                position: 'relative',
-                top: '113px'
-              }}
-            >
-              <img
-                src={Devices}
-                alt="Laptop, cell phone and tablet"
-              />
-            </div>
-          </div>
-        </Col>
-        <Col
-          className="text-white mx-auto"
-          md={{
-            size: 5,
-            offset: 7
-          }}
+          Centered 1
+        </p>
+      </div>
+    </div>
+    <div
+      className="d-flex justify-content-center flex-column d-md-none"
+      style={{
+        height: '480px',
+      }}
+    >
+      <div
+        className="align-self-center"
+      >
+        <p
+          className="display-4"
         >
-          <div
-            className="pt-5"
-          >
-            <p
-              className="text-uppercase"
-            >
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra, metus in dignissim dictum, nibh tellus euismod urna, luctus sagittis enim nisl et urna.
-            </p>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+        Centered 2
+        </p>
+      </div>
+    </div>
   </Section>
 )
 
