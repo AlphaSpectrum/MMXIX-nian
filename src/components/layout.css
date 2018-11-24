@@ -12,3 +12,12 @@
 .nav-link:hover {
     color: #5A4DB0 !important;
 }
+
+div[role=section] {
+    height: 480px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#hero {
+    background: #14008E;
+}
