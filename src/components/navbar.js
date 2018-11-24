@@ -13,6 +13,8 @@ import {
   DropdownItem
 } from 'reactstrap'
 
+import Logo from '../images/logo.svg'
+
 export default class NavigationBar extends React.Component {
   constructor (props) {
     super(props)
@@ -37,7 +39,13 @@ export default class NavigationBar extends React.Component {
         <NavbarBrand
           href="/"
         >
-          Logo
+          <img
+            src={Logo}
+            alt="Logo"
+            style={{
+              height: '44px'
+            }}
+          />
         </NavbarBrand>
         <NavbarToggler
           onClick={this.toggle}

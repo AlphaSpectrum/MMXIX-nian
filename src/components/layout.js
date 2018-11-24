@@ -2,10 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Schema from 'rschema'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './header'
 import './layout.css'
+import Logo from '../images/logo.svg'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -16,6 +18,7 @@ const Layout = ({ children }) => (
             title
             keywords
             description
+            siteURL
           }
         }
       }
@@ -48,6 +51,42 @@ const Layout = ({ children }) => (
         <div>
           {children}
         </div>
+        <Schema
+          schemaType="CreativeWork"
+          data={{
+            '@id': `${ data.site.siteMetadata.siteURL }/#creativework`,
+            creator:
+            {
+              '@id': `${ data.site.siteMetadata.siteURL }/#person`
+            },
+          }}
+        />
+        <Schema
+          schemaType="Person"
+          data={{
+            '@id': `${ data.site.siteMetadata.siteURL }/#person`,
+            name: 'Alan Campos',
+            alternateName: [
+              '孔旭东',
+              'kong xu dong'
+            ],
+            sameAs: [
+              'https://www.linkedin.com/in/alancampos/',
+            ],
+            jobTitle: [
+              'Software Engineer',
+              'Web Developer'
+            ]
+          }}
+        />
+        <Schema
+          schemaType="Organization"
+          data={{
+            '@id': `${ data.site.siteMetadata.siteURL }/#website`,
+            url: `${ data.site.siteMetadata.siteURL }`,
+            logo: `${ data.site.siteMetadata.siteURL }/${ Logo }`,
+          }}
+        />
       </>
     )}
   />

@@ -8,7 +8,7 @@ import Devices from '../images/editor.svg'
 
 const IndexPage = () => (
   <Layout>
-    <Hero/>
+    <Hero />
     <Section>
       <Container>
         <Row
@@ -19,7 +19,12 @@ const IndexPage = () => (
               size: 4
             }}
           >
-          asdfasdf
+            <h2>
+              Lorem ipsum dolor sit amet
+            </h2>
+            <p>
+              Praesent nec viverra tortor. Nullam finibus mauris ut ligula suscipit, sit amet volutpat lectus ultrices. Suspendisse sagittis turpis at nibh aliquet semper.
+            </p>
           </Col>
           <Col
             md={{

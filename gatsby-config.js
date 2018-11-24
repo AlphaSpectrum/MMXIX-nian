@@ -3,6 +3,7 @@ module.exports = {
     title: 'Gatsby Default Starter',
     keywords: 'portfolio',
     description: 'Some description',
+    siteURL: 'https://www.alan-campos.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

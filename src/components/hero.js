@@ -1,12 +1,13 @@
 import React from 'react'
 
 import Section from '../components/section'
+import 'animate.css'
 
 const Hero = () => (
   <Section
     id="hero"
     style={{
-      marginTop: '56px'
+      marginTop: '70px'
     }}
   >
     <div
@@ -25,7 +26,7 @@ const Hero = () => (
           }}
         >
           <h1
-            className="text-center font-weight-bold"
+            className="text-center font-weight-bold animated rubberBand"
           >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
