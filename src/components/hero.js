@@ -9,7 +9,7 @@ const Hero = () => (
     id="hero"
   >
     <div
-      class="hero-container d-none d-md-block"
+      className="hero-container d-none d-md-block"
     >
       <div
       >
@@ -20,12 +20,13 @@ const Hero = () => (
         />
       </div>
       <div
-        class="centered"
+        className="centered"
       >
         <p
-          className="display-4"
+          className="display-4 font-weight-bold"
+          
         >
-          Centered 1
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
     </div>
@@ -39,9 +40,9 @@ const Hero = () => (
         className="align-self-center"
       >
         <p
-          className="display-4"
+          className="display-4 font-weight-bold"
         >
-        Centered 2
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
     </div>
