@@ -1,9 +1,26 @@
 module.exports = {
   siteMetadata: {
     title: 'arc | Homepage',
-    keywords: 'javascript, gatsbyjs, web developer, engineer, software, software engineer, react, machine learning, ai, artificial intelligence, math, mathematics, webpack, html, css',
+    keywords: `
+        javascript, 
+        gatsbyjs, 
+        web developer, 
+        engineer, 
+        software, 
+        software engineer, 
+        react, 
+        machine learning, 
+        ai, 
+        artificial intelligence, 
+        math, 
+        mathematics, 
+        webpack, 
+        html, 
+        css`,
     description: 'Software enginer and web developer Alan Campos',
-    siteURL: 'https://www.alan-campos.com'
+    siteURL: 'https://www.alan-campos.com',
+    twitterURL: 'https://twitter.com/ln_cmps',
+    linkedInURL: 'https://www.linkedin.com/in/alancampos/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

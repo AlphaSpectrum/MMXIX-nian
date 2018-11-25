@@ -20,6 +20,8 @@ const Layout = ({ children }) => (
             keywords
             description
             siteURL
+            linkedInURL
+            twitterURL
           }
         }
       }
@@ -72,7 +74,8 @@ const Layout = ({ children }) => (
               'kong xu dong'
             ],
             sameAs: [
-              'https://www.linkedin.com/in/alancampos/'
+              `${ data.site.siteMetadata.linkedInURL }`,
+              `${ data.site.siteMetadata.twitterURL }`
             ],
             jobTitle: [
               'Software Engineer',
