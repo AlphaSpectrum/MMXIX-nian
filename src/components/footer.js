@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import SignupForm from './signup-form'
 import SocialIcons from './social-icons'
 import {
@@ -22,6 +23,24 @@ class Footer extends React.Component {
                 size: 6
               }}
             >
+              <ul
+                className="list-unstyled"
+              >
+                <li>
+                  <Link
+                    to="/about"
+                  >
+                  About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/privacy-policy"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
+              </ul>
             </Col>
             <Col
               md={{
