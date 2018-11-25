@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import NotFound from '../images/404.svg'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 class NotFoundPage extends React.Component {
   constructor (props) {
@@ -54,7 +54,7 @@ class NotFoundPage extends React.Component {
               }}
               to="/"
             >
-              Run away to Home <FontAwesomeIcon icon={faAngleRight} />
+              Run away to Home <FontAwesomeIcon icon={faArrowRight} />
             </Link>
           </div>
         </div>

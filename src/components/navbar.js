@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import {
   Collapse,
   Navbar,
@@ -53,11 +54,20 @@ export default class NavigationBar extends React.Component {
             navbar
           >
             <NavItem>
-              <NavLink
-                href="/components/"
+              <Link
+                className="nav-link"
+                to="/resume"
               >
-                Components
-              </NavLink>
+                Resume
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link
+                className="nav-link"
+                to="/projects"
+              >
+                Projects
+              </Link>
             </NavItem>
             <NavItem>
               <NavLink
@@ -66,33 +76,6 @@ export default class NavigationBar extends React.Component {
                 GitHub
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown
-              nav
-              inNavbar
-            >
-              <DropdownToggle
-                nav
-                caret
-              >
-                Options
-              </DropdownToggle>
-              <DropdownMenu
-                right
-              >
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem
-                  divider
-                />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Navbar>

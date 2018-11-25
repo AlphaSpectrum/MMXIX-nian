@@ -40,13 +40,11 @@ div[role=section] {
     text-align: center;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#intro h1,
+#intro h2,
+#intro h3 {
+    color: #14008E;
 }
-
 .card {
     background-image: linear-gradient(-135deg, #17EAD9 0%, #6078EA 100%);
 }
