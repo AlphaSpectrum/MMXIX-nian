@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import {
   Container,
   Row,
@@ -226,10 +227,12 @@ class PrivacyPolicy extends React.Component {
               <p>If you have any questions about this Privacy Policy, please
                 contact us:</p>
               <ul>
-                <li>By visiting this page on our website:
+                <li>By visiting this page on our website: <Link
+                  to="/contact"
+                >
                   https://alan-campos.com/contact
+                </Link>
                 </li>
-
               </ul>
             </Col>
           </Row>

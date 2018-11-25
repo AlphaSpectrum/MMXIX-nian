@@ -71,6 +71,11 @@ const IndexPage = () => (
             md={{ size: 12 }}
             className="py-5"
           >
+            <h2
+              className="text-center text-navy mb-5"
+            >
+          Recent Projects
+            </h2>
             <CardColumns>
               <Card
                 inverse

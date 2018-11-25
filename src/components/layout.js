@@ -10,9 +10,10 @@ import './layout.css'
 import Logo from '../images/logo.svg'
 import Footer from './footer'
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
+const Layout = ({ children, nofooter }) => {
+  return (
+    <StaticQuery
+      query={graphql`
       query SiteTitleQuery {
         site {
           siteMetadata {
@@ -26,7 +27,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+      render={data => (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
@@ -91,11 +92,12 @@ const Layout = ({ children }) => (
             logo: `${ data.site.siteMetadata.siteURL }/${ Logo }`,
           }}
         />
-        <Footer/>
+          {nofooter ? '' : <Footer /> }
       </>
-    )}
-  />
-)
+      )}
+    />
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

@@ -87,3 +87,11 @@ footer a:hover {
 .nav-fix {
     margin-top: 70px !important;
 }
+
+.not-found a {
+    color: #00dcff;
+}
+
+.not-found a:hover {
+    color: #ffc107;
+}

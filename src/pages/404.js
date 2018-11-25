@@ -22,10 +22,11 @@ class NotFoundPage extends React.Component {
 
   render () {
     return (
-      <Layout>
+      <Layout
+        nofooter
+      >
         <div
-          className="d-flex justify-content-center flex-column p-3 bg-navy"
-
+          className="d-flex justify-content-center flex-column p-3 bg-navy not-found"
           style={{
             height: '100vh'
           }}
