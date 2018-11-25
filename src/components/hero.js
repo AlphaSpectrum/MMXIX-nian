@@ -6,13 +6,10 @@ import 'animate.css'
 const Hero = () => (
   <Section
     id="hero"
-    style={{
-      marginTop: '70px'
-    }}
   >
     <div
       id='hero-device'
-      className="d-flex justify-content-center flex-column"
+      className="d-flex justify-content-center flex-column nav-fix"
       style={{
         height: '480px'
       }}

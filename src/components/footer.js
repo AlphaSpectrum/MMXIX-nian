@@ -40,6 +40,13 @@ class Footer extends React.Component {
                     Privacy Policy
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/contact"
+                  >
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </Col>
             <Col

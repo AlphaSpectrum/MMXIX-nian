@@ -1,5 +1,5 @@
 .bg-white-transluscent-blur {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
 }
@@ -82,4 +82,8 @@ footer a:hover {
 
 .social a:hover {
     color: #baafff;
+}
+
+.nav-fix {
+    margin-top: 70px !important;
 }
