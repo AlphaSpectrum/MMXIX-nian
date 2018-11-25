@@ -72,7 +72,7 @@ const Layout = ({ children }) => (
               'kong xu dong'
             ],
             sameAs: [
-              'https://www.linkedin.com/in/alancampos/',
+              'https://www.linkedin.com/in/alancampos/'
             ],
             jobTitle: [
               'Software Engineer',

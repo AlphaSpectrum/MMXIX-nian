@@ -48,9 +48,6 @@ class NotFoundPage extends React.Component {
             </h1>
             <p>You have found a ghost page!</p>
             <Link
-              style={{
-                color: '#00dcff'
-              }}
               to="/"
             >
               Run away to Home <FontAwesomeIcon icon={faArrowRight} />
