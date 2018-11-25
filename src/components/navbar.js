@@ -7,16 +7,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap'
 
 import Logo from '../images/logo.svg'
 
-export default class NavigationBar extends React.Component {
+class NavigationBar extends React.Component {
   constructor (props) {
     super(props)
 
@@ -82,3 +78,5 @@ export default class NavigationBar extends React.Component {
     )
   }
 }
+
+export default NavigationBar
