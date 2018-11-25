@@ -9,7 +9,7 @@ import {
 
 const SignupForm = () => (
     <>
-    <h4>Want to be in the loop?</h4>
+    <h5>Want to be in the loop?</h5>
     <Form
       action="https://alan-campos.us19.list-manage.com/subscribe/post?u=a3e6856a386fb7c458d933e71&amp;id=b568efca23"
       method="post"
