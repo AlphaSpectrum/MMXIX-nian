@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './header'
 import './layout.css'
 import Logo from '../images/logo.svg'
+import Footer from './footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -87,6 +88,7 @@ const Layout = ({ children }) => (
             logo: `${ data.site.siteMetadata.siteURL }/${ Logo }`,
           }}
         />
+        <Footer/>
       </>
     )}
   />

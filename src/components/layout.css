@@ -1,7 +1,5 @@
-.bg-white-transluscent-blur {
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+.bg-navy {
+    background: #14008E;
 }
 
 .nav-item {
@@ -45,10 +43,7 @@ div[role=section] {
 #intro h3 {
     color: #14008E;
 }
+
 .card {
     background-image: linear-gradient(-135deg, #17EAD9 0%, #6078EA 100%);
-}
-
-#not-found {
-    background: #14008E;
 }
