@@ -20,7 +20,8 @@ module.exports = {
     description: 'Software enginer and web developer Alan Campos',
     siteURL: 'https://www.alan-campos.com',
     twitterURL: 'https://twitter.com/ln_cmps',
-    linkedInURL: 'https://www.linkedin.com/in/alancampos/'
+    linkedInURL: 'https://linkedin.com/in/alancampos/',
+    gitHubURL: 'https://github.com/alphaspectrum'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

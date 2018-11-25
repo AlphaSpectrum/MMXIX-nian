@@ -29,7 +29,7 @@ const IndexPage = () => (
         }}
       >
         <Row
-          className="mx-1 my-3 my-md-5"
+          className="my-5"
         >
           <Col
             md={{
@@ -51,9 +51,8 @@ const IndexPage = () => (
             }}
           >
             <div
-              className="d-flex flex-row justify-content-end"
+              className="text-right"
             >
-
               <img
                 className="position-up-50 img-fluid"
                 src={Devices}

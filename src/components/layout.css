@@ -65,3 +65,21 @@ a {
 a:hover {
     color: #ffc107;
 }
+
+.social {
+    text-align: center;
+}
+
+.social .list-inline-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.social a {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.social a:hover {
+    color: #baafff;
+}

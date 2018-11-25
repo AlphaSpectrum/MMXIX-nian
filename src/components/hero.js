@@ -26,7 +26,7 @@ const Hero = () => (
           }}
         >
           <h1
-            className="text-center font-weight-bold animated rubberBand"
+            className="text-center font-weight-bold animated fadeIn"
           >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
