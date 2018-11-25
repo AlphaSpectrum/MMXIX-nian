@@ -1,5 +1,16 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardColumns,
+  CardSubtitle,
+  CardBody
+} from 'reactstrap'
 
 import Layout from '../components/layout'
 import Hero from '../components/hero'
@@ -41,6 +52,38 @@ const IndexPage = () => (
         </Row>
       </Container>
     </Section>
+    <Container>
+      <Row>
+        <Col
+          md={{ size: 12 }}
+          className="py-5"
+        >
+          <CardColumns>
+            <Card
+              inverse
+            >
+              <CardImg
+                top
+                width="100%"
+                src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+                alt="Card image cap"
+              />
+              <CardBody>
+                <CardTitle>
+                  Card title
+                </CardTitle>
+                <CardSubtitle>
+                  Card subtitle
+                </CardSubtitle>
+                <CardText>
+                  Lorem Ipsum
+                </CardText>
+              </CardBody>
+            </Card>
+          </CardColumns>
+        </Col>
+      </Row>
+    </Container>
   </Layout>
 )
 

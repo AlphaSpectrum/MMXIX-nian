@@ -39,13 +39,7 @@ export default class NavigationBar extends React.Component {
         <NavbarBrand
           href="/"
         >
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{
-              height: '44px'
-            }}
-          />
+          <img src={Logo} alt="Logo" style={{ height: '40px' }}/>
         </NavbarBrand>
         <NavbarToggler
           onClick={this.toggle}
@@ -67,7 +61,7 @@ export default class NavigationBar extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://github.com/reactstrap/reactstrap"
+                href="https://github.com/AlphaSpectrum"
               >
                 GitHub
               </NavLink>
@@ -80,22 +74,22 @@ export default class NavigationBar extends React.Component {
                 nav
                 caret
               >
-                                    Options
+                Options
               </DropdownToggle>
               <DropdownMenu
                 right
               >
                 <DropdownItem>
-                                        Option 1
+                  Option 1
                 </DropdownItem>
                 <DropdownItem>
-                                        Option 2
+                  Option 2
                 </DropdownItem>
                 <DropdownItem
                   divider
                 />
                 <DropdownItem>
-                                        Reset
+                  Reset
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
